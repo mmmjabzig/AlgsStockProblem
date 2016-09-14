@@ -35,14 +35,6 @@ public class test {
 			ArrayList<ArrayList<Integer>> res1 = solve(fst);
 			ArrayList<ArrayList<Integer>> res2 = solve(snd);
 			ArrayList<ArrayList<Integer>> answer = combine(res1, res2);
-			for(int i=0; i < answer.size(); i++) {
-				System.out.println("[");
-				for(int j=0; j < answer.get(i).size(); j++) {
-					System.out.println(answer.get(i).get(j));
-				}
-				System.out.println("]");
-			}
-			System.out.println("-----------------------");
 			return answer;
 		} else {
 			return input;
